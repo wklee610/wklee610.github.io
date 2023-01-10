@@ -1,29 +1,28 @@
-<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<url>
-<loc>http://localhost:4000/posts/welcome/</loc>
-<lastmod>2023-01-06T00:00:00+09:00</lastmod>
-</url>
-<url>
-<loc>http://localhost:4000/categories/</loc>
-<lastmod>2023-01-08T00:10:07+09:00</lastmod>
-</url>
-<url>
-<loc>http://localhost:4000/tags/</loc>
-<lastmod>2023-01-08T00:10:07+09:00</lastmod>
-</url>
-<url>
-<loc>http://localhost:4000/archives/</loc>
-<lastmod>2023-01-08T00:10:07+09:00</lastmod>
-</url>
-<url>
-<loc>http://localhost:4000/about/</loc>
-<lastmod>2023-01-08T00:10:07+09:00</lastmod>
-</url>
-<url>
-<loc>http://localhost:4000/</loc>
-</url>
-<url>
-<loc>http://localhost:4000/googlee8fc0d815b1ac3e5.html</loc>
-<lastmod>2023-01-08T00:05:05+09:00</lastmod>
-</url>
+---
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  {% for post in site.posts %}
+    <url>
+      <loc>{{ site.url }}{{ post.url }}</loc>
+      {% if post.lastmod == null %}
+        <lastmod>{{ post.date | date_to_xmlschema }}</lastmod>
+      {% else %}
+        <lastmod>{{ post.lastmod | date_to_xmlschema }}</lastmod>
+      {% endif %}
+
+      {% if post.sitemap.changefreq == null %}
+        <changefreq>daily</changefreq>
+      {% else %}
+        <changefreq>{{ post.sitemap.changefreq }}</changefreq>
+      {% endif %}
+
+      {% if post.sitemap.priority == null %}
+          <priority>0.5</priority>
+      {% else %}
+        <priority>{{ post.sitemap.priority }}</priority>
+      {% endif %}
+
+    </url>
+  {% endfor %}
 </urlset>
