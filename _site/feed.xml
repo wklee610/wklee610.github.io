@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>Hajun's Dev Note</title>
   <subtitle>A minimal, responsive, and powerful Jekyll theme for presenting professional writing.</subtitle>
-  <updated>2023-01-10T21:56:11+09:00</updated>
+  <updated>2023-01-09T14:01:35+09:00</updated>
   <author>
     <name>Hajun Lee</name>
     <uri>http://localhost:4000/</uri>
@@ -20,11 +20,11 @@
 
   
   <entry>
-    <title>testttttt!</title>
-    <link href="http://localhost:4000/posts/welcome/" rel="alternate" type="text/html" title="testttttt!" />
-    <published>2023-01-10T10:28:00+09:00</published>
+    <title>test!</title>
+    <link href="http://localhost:4000/posts/welcome/" rel="alternate" type="text/html" title="test!" />
+    <published>2022-01-10T20:28:00+09:00</published>
   
-    <updated>2023-01-10T21:51:38+09:00</updated>
+    <updated>2022-01-10T20:28:00+09:00</updated>
   
     <id>http://localhost:4000/posts/welcome/</id>
     <content src="http://localhost:4000/posts/welcome/" />
