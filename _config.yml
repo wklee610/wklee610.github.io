@@ -24,7 +24,7 @@ title: Hajun's Dev Note                          # the main title
 tagline: I will not forget what I have learned once   # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
-  하준이의 개발 블로그
+  Hajun's development & tech knowledge data warehouse
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
 url: 'https://wklee610.github.io'
