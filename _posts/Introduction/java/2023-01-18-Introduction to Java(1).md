@@ -3,7 +3,7 @@ title: Introduction to Java (1) - 자바 프로그래밍 시작하기
 author: Hajun
 date: 2023-01-18 03:09:00 +0900
 categories: [Introduction, Java]
-tags: [java]
+tags: [java, jvm, jdk, class, gc]
 ---
 ## 1. 프로그래밍이란?
 - - -
