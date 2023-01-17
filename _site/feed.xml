@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>Hajun's Dev Note</title>
   <subtitle>하준이의 개발 블로그</subtitle>
-  <updated>2023-01-12T01:20:10+09:00</updated>
+  <updated>2023-01-18T03:11:02+09:00</updated>
   <author>
     <name>Hajun Lee</name>
     <uri>http://localhost:4000/</uri>
@@ -20,23 +20,23 @@
 
   
   <entry>
-    <title>testttttt!</title>
-    <link href="http://localhost:4000/posts/welcome/" rel="alternate" type="text/html" title="testttttt!" />
-    <published>2023-01-10T10:28:00+09:00</published>
+    <title>Introduction to Java (1) - 자바 프로그래밍 시작하기</title>
+    <link href="http://localhost:4000/posts/Introduction-to-Java(1)/" rel="alternate" type="text/html" title="Introduction to Java (1) - 자바 프로그래밍 시작하기" />
+    <published>2023-01-18T03:09:00+09:00</published>
   
-    <updated>2023-01-10T22:24:47+09:00</updated>
+    <updated>2023-01-18T03:09:00+09:00</updated>
   
-    <id>http://localhost:4000/posts/welcome/</id>
-    <content src="http://localhost:4000/posts/welcome/" />
+    <id>http://localhost:4000/posts/Introduction-to-Java(1)/</id>
+    <content src="http://localhost:4000/posts/Introduction-to-Java(1)/" />
     <author>
-      <name>하준</name>
+      <name>Hajun</name>
     </author>
 
   
     
-    <category term="test" />
+    <category term="Introduction" />
     
-    <category term="spark" />
+    <category term="Java" />
     
   
 
@@ -48,8 +48,17 @@
 
 
 
-      
+      1. 프로그래밍이란?
 
+프로그래밍을 한다는 것은 컴퓨터가 일을 하도록 컴퓨터 언어로 명령을 만들고 컴퓨터로 하여금 그 명령을 실행하게 하는 것을 말합니다. 프로그램이 프로그래밍 언어 문법에 잘 맞는지 확인하고, 컴퓨터가 이해할 수 있는 언어로 번역을 해야하는데, 이 작업을 컴파일(Compile)이라고 하며, 컴파일 작업을 하는 프로그램을 컴파일러(Compiler)라고 합니다.
+
+2. 왜 자바를 써야하는가?
+
+자바는 1991년 제임스 고슬링을 비롯한 선 마이크로시스템스 연구원들이 처음 개발했습니다. 이때, 가전제품이나 휴대용 장치 등에 사용하는 소프트웨어를 만들기 위해 독립적으로 작동하는 더 안정된 프로그래밍 언어가 필요했습니다.
+
+3. 자바의 장점?
+
+1. 플랫폼에 영향을 받지 않으므로 다양한 환경에서...
     </summary>
   
 
