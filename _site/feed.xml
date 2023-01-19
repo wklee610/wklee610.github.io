@@ -3,8 +3,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>http://localhost:4000/</id>
   <title>Hajun's Dev Note</title>
-  <subtitle>하준이의 개발 블로그</subtitle>
-  <updated>2023-01-18T03:39:30+09:00</updated>
+  <subtitle>Hajun's development &amp; tech knowledge data warehouse</subtitle>
+  <updated>2023-01-20T03:33:40+09:00</updated>
   <author>
     <name>Hajun Lee</name>
     <uri>http://localhost:4000/</uri>
@@ -17,6 +17,52 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>Introduction to Java (2) - 변수와 자료형</title>
+    <link href="http://localhost:4000/posts/Introduction-to-Java(2)/" rel="alternate" type="text/html" title="Introduction to Java (2) - 변수와 자료형" />
+    <published>2023-01-20T03:33:00+09:00</published>
+  
+    <updated>2023-01-20T03:33:00+09:00</updated>
+  
+    <id>http://localhost:4000/posts/Introduction-to-Java(2)/</id>
+    <content src="http://localhost:4000/posts/Introduction-to-Java(2)/" />
+    <author>
+      <name>Hajun</name>
+    </author>
+
+  
+    
+    <category term="Introduction" />
+    
+    <category term="Java" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      1. 변수란?
+
+어떠한 값을 저장하려면 저장할 공간이 필요한데, 이 공간의 이름이 바로 변수입니다.
+변수를 사용하기 위해 어떤 형태의 자료를 저장할 것인지 정해야합니다. 예를 들어, 사람의 나이를 저장하려면 정수 형태를 써야 하고, 이름을 저장하려면 문자 형태를 써야합니다. 이 형태를 변수의 ‘자료형’이라고 합니다. 변수의 자료형을 선택했다면 변수의 이름도 정해줘야 합니다.
+
+package java;
+
+public class variable {
+    public static void main(String[] args) {
+        int level;      //int는 정수형, level은 변수명 = 정수형 변수 level을 선언
+        level = 10;     //값 10을 Lev...
+    </summary>
+  
+
+  </entry>
 
   
   <entry>
