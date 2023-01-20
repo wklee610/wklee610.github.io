@@ -1,102 +1,28 @@
+---
+---
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  {% for post in site.posts %}
+    <url>
+      <loc>{{ site.url }}{{ post.url }}</loc>
+      {% if post.lastmod == null %}
+        <lastmod>{{ post.date | date_to_xmlschema }}</lastmod>
+      {% else %}
+        <lastmod>{{ post.lastmod | date_to_xmlschema }}</lastmod>
+      {% endif %}
 
+      {% if post.sitemap.changefreq == null %}
+        <changefreq>daily</changefreq>
+      {% else %}
+        <changefreq>{{ post.sitemap.changefreq }}</changefreq>
+      {% endif %}
 
-<url>
-  <loc>https://wklee610.github.io/</loc>
-  <lastmod>2023-01-20T14:01:57+00:00</lastmod>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>https://wklee610.github.io/categories/</loc>
-  <lastmod>2023-01-20T14:01:57+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://wklee610.github.io/tags/</loc>
-  <lastmod>2023-01-20T14:01:57+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://wklee610.github.io/archives/</loc>
-  <lastmod>2023-01-20T14:01:57+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://wklee610.github.io/about/</loc>
-  <lastmod>2023-01-20T14:01:57+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://wklee610.github.io/posts/Introduction-to-Java(2)/</loc>
-  <lastmod>2023-01-20T14:01:57+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://wklee610.github.io/posts/Introduction-to-Java(1)/</loc>
-  <lastmod>2023-01-20T14:01:57+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://wklee610.github.io/tags/java/</loc>
-  <lastmod>2023-01-20T14:01:57+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://wklee610.github.io/tags/class/</loc>
-  <lastmod>2023-01-20T14:01:57+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://wklee610.github.io/tags/conversion/</loc>
-  <lastmod>2023-01-20T14:01:57+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://wklee610.github.io/tags/datatype/</loc>
-  <lastmod>2023-01-20T14:01:57+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://wklee610.github.io/tags/gc/</loc>
-  <lastmod>2023-01-20T14:01:57+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://wklee610.github.io/tags/jdk/</loc>
-  <lastmod>2023-01-20T14:01:57+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://wklee610.github.io/tags/jvm/</loc>
-  <lastmod>2023-01-20T14:01:57+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://wklee610.github.io/tags/literal/</loc>
-  <lastmod>2023-01-20T14:01:57+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://wklee610.github.io/tags/variable/</loc>
-  <lastmod>2023-01-20T14:01:57+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://wklee610.github.io/categories/introduction/</loc>
-  <lastmod>2023-01-20T14:01:57+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://wklee610.github.io/categories/java/</loc>
-  <lastmod>2023-01-20T14:01:57+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
+      {% if post.sitemap.priority == null %}
+          <priority>0.5</priority>
+      {% else %}
+        <priority>{{ post.sitemap.priority }}</priority>
+      {% endif %}
 
-
+    </url>
+  {% endfor %}
 </urlset>
