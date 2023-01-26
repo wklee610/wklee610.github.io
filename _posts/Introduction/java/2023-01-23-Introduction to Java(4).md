@@ -11,7 +11,6 @@ tags: [java, if, else, for, while]
 ## 1. 조건문
 - - - 
 조건문이란 주어진 조건에 따라 다른 문장을 선택할 수 있도록 프로그래밍하는 것을 말합니다.
-
   * if문, if-else문, if-else if-else문, if-if문
   * 조건문과 조건 연산자 --> max = (a > b) ? a : b;
   * switch-case 문
@@ -21,7 +20,6 @@ tags: [java, if, else, for, while]
 ## 2. 반복문
 - - - 
 반복문이란, 반복 수행을 수행 할 수 있도록 프로그래밍하는 것을 말합니다.
-
   * while문
   * do-while문
   * for문
