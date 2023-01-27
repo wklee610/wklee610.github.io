@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>Hajun's Dev Note</title>
   <subtitle>Hajun's development &amp; tech knowledge data warehouse</subtitle>
-  <updated>2023-01-26T15:00:19+09:00</updated>
+  <updated>2023-01-27T17:18:16+09:00</updated>
   <author>
     <name>Hajun Lee</name>
     <uri>http://localhost:4000/</uri>
@@ -24,7 +24,7 @@
     <link href="http://localhost:4000/posts/Introduction-to-Java(4)/" rel="alternate" type="text/html" title="Introduction to Java (4) - 제어 흐름 이해하기" />
     <published>2023-01-25T00:00:00+09:00</published>
   
-    <updated>2023-01-25T00:02:34+09:00</updated>
+    <updated>2023-01-26T15:00:22+09:00</updated>
   
     <id>http://localhost:4000/posts/Introduction-to-Java(4)/</id>
     <content src="http://localhost:4000/posts/Introduction-to-Java(4)/" />
@@ -56,14 +56,12 @@
 
   if문, if-else문, if-else if-else문, if-if문
   조건문과 조건 연산자 –&amp;gt; max = (a &amp;gt; b) ? a : b;
-  switch-case 문
-
-
-2. 반복문
-
-반복문이란, 반복 수행을 수행 할 수 있도록 프로그래밍하는 것을 말합니다.
-
- ...
+  
+    switch-case 문
+  
+  if-else if문과 if-if문의 차이
+    
+      if-else i...
     </summary>
   
 
