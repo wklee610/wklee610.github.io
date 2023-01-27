@@ -15,6 +15,8 @@ tags: [java, if, else, for, while]
   * 조건문과 조건 연산자 --> max = (a > b) ? a : b;
   * switch-case 문
 
+* if-else if문과 if-if문의 차이
+  + if-else if문은 하나의 조건을 만족하면 나머지 조건을 비교하지 않고 다음 수행문으로 넘어갑니다. 하지만 if문으로만 이루어진 코드는 조건마다 각각 비교합니다.
 
 
 ## 2. 반복문
