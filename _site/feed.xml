@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>Hajun's Dev Note</title>
   <subtitle>Hajun's development &amp; tech knowledge data warehouse</subtitle>
-  <updated>2023-02-01T01:44:27+09:00</updated>
+  <updated>2023-02-04T01:44:18+09:00</updated>
   <author>
     <name>Hajun Lee</name>
     <uri>http://localhost:4000/</uri>
@@ -17,6 +17,44 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>Introduction to Java (5) - 클래스와 객채 1</title>
+    <link href="http://localhost:4000/posts/Introduction-to-Java(5)/" rel="alternate" type="text/html" title="Introduction to Java (5) - 클래스와 객채 1" />
+    <published>2023-02-04T01:00:00+09:00</published>
+  
+    <updated>2023-02-04T01:00:00+09:00</updated>
+  
+    <id>http://localhost:4000/posts/Introduction-to-Java(5)/</id>
+    <content src="http://localhost:4000/posts/Introduction-to-Java(5)/" />
+    <author>
+      <name>Hajun</name>
+    </author>
+
+  
+    
+    <category term="Introduction" />
+    
+    <category term="Java" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      1. 객체 지향 프로그래밍과 클래스 (절차지향 vs 객체지향)
+
+절차지향 프로그래밍이란 물이 위에서 아래로 흐르는 것처럼 순차적인 처리가 중요시 되며 프로그램 전체가 유기적으로 연결되도록 만드는 프로그래밍 기법입니다. 대표적인 절차지향 언어에는 C언어가 있습니다. 이는 컴퓨터의 작업 처리 방식과 유사하기 때문에 객체지향 언어를 사용하는 것에 비해 더 빨리 처리되어 시간적으로 유리합니다. 옛날에는 하드웨어와 소프트웨어의 개발 속도차이가 크지 않았습니다. 하지만 하드웨어의 빠른 발전을 통해 컴퓨팅 환경은 급속도로 증가했지만 소프트웨어 개발 시간이 따라가지 못하게 되고 이런 상황에 소프트웨어의 개발시간을 단축하되 하드웨어에 기본적인 사양을 잡아먹어도 더 이상 큰 단점이 아니기에 모듈화, 캡슐화해서 개념적으로...
+    </summary>
+  
+
+  </entry>
 
   
   <entry>
@@ -62,48 +100,6 @@
       Sales: customers, products, purchases
       Accounting: payments, receipts, assets
       Human Resources: Information about employees, salaries, payro...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>Introduction to Java (5) - 클래스와 객채 1</title>
-    <link href="http://localhost:4000/posts/Introduction-to-Java(5)/" rel="alternate" type="text/html" title="Introduction to Java (5) - 클래스와 객채 1" />
-    <published>2023-01-30T03:00:00+09:00</published>
-  
-    <updated>2023-01-30T03:00:00+09:00</updated>
-  
-    <id>http://localhost:4000/posts/Introduction-to-Java(5)/</id>
-    <content src="http://localhost:4000/posts/Introduction-to-Java(5)/" />
-    <author>
-      <name>Hajun</name>
-    </author>
-
-  
-    
-    <category term="Introduction" />
-    
-    <category term="Java" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      절차지향 vs 객체지향
-
-클래스
-
-패키지
-
-
     </summary>
   
 
