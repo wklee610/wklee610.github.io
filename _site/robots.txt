@@ -1,5 +1,4 @@
 User-agent: *
+Allow: /
 
-Disallow: /norobots/
-
-Sitemap: http://localhost:4000/sitemap.xml
+Sitemap: https://wklee610.github.io/sitemap.xml
