@@ -2,7 +2,7 @@
 title: Introduction to Database (1) - Introduction
 author: Hajun
 date: 2023-02-01 01:00:00 +0900
-categories: [Introduction, Database]
+categories: [Database, Introduction]
 tags: [database, instance, schema, relational, sql]
 ---
 
