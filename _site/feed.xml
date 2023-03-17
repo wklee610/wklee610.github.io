@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>Hajun's Dev Note</title>
   <subtitle>Hajun's development &amp; tech knowledge data warehouse</subtitle>
-  <updated>2023-03-14T14:24:55+09:00</updated>
+  <updated>2023-03-17T22:41:35+09:00</updated>
   <author>
     <name>Hajun Lee</name>
     <uri>http://localhost:4000/</uri>
@@ -34,9 +34,9 @@
 
   
     
-    <category term="Introduction" />
-    
     <category term="Java" />
+    
+    <category term="Introduction" />
     
   
 
@@ -111,7 +111,7 @@
     <link href="http://localhost:4000/posts/Introduction-to-Java(4)/" rel="alternate" type="text/html" title="Introduction to Java (4) - 제어 흐름 이해하기" />
     <published>2023-01-25T00:00:00+09:00</published>
   
-    <updated>2023-01-27T17:20:09+09:00</updated>
+    <updated>2023-01-25T00:00:00+09:00</updated>
   
     <id>http://localhost:4000/posts/Introduction-to-Java(4)/</id>
     <content src="http://localhost:4000/posts/Introduction-to-Java(4)/" />
@@ -121,9 +121,9 @@
 
   
     
-    <category term="Introduction" />
-    
     <category term="Java" />
+    
+    <category term="Introduction" />
     
   
 
@@ -170,9 +170,9 @@
 
   
     
-    <category term="Introduction" />
-    
     <category term="Java" />
+    
+    <category term="Introduction" />
     
   
 
@@ -225,7 +225,7 @@
     <link href="http://localhost:4000/posts/Introduction-to-Java(2)/" rel="alternate" type="text/html" title="Introduction to Java (2) - 변수와 자료형" />
     <published>2023-01-20T03:33:00+09:00</published>
   
-    <updated>2023-01-20T23:01:24+09:00</updated>
+    <updated>2023-01-20T03:33:00+09:00</updated>
   
     <id>http://localhost:4000/posts/Introduction-to-Java(2)/</id>
     <content src="http://localhost:4000/posts/Introduction-to-Java(2)/" />
@@ -235,9 +235,9 @@
 
   
     
-    <category term="Introduction" />
-    
     <category term="Java" />
+    
+    <category term="Introduction" />
     
   
 
