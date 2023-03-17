@@ -2,7 +2,7 @@
 title: Introduction to Java (5) - 클래스와 객채 1
 author: Hajun
 date: 2023-02-04 01:00:00 +0900
-categories: [Java, Introduction]
+categories: [Java, Introduction to Java]
 tags: [java]
 ---
 

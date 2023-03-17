@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>Hajun's Dev Note</title>
   <subtitle>Hajun's development &amp; tech knowledge data warehouse</subtitle>
-  <updated>2023-03-17T22:41:35+09:00</updated>
+  <updated>2023-03-17T22:45:56+09:00</updated>
   <author>
     <name>Hajun Lee</name>
     <uri>http://localhost:4000/</uri>
@@ -36,7 +36,7 @@
     
     <category term="Java" />
     
-    <category term="Introduction" />
+    <category term="Introduction to Java" />
     
   
 
@@ -62,7 +62,7 @@
     <link href="http://localhost:4000/posts/Introduction-to-Database(1)/" rel="alternate" type="text/html" title="Introduction to Database (1) - Introduction" />
     <published>2023-02-01T01:00:00+09:00</published>
   
-    <updated>2023-02-01T01:00:00+09:00</updated>
+    <updated>2023-03-17T22:43:17+09:00</updated>
   
     <id>http://localhost:4000/posts/Introduction-to-Database(1)/</id>
     <content src="http://localhost:4000/posts/Introduction-to-Database(1)/" />
@@ -72,9 +72,9 @@
 
   
     
-    <category term="Introduction" />
-    
     <category term="Database" />
+    
+    <category term="Introduction to Database" />
     
   
 
@@ -123,7 +123,7 @@
     
     <category term="Java" />
     
-    <category term="Introduction" />
+    <category term="Introduction to Java" />
     
   
 
@@ -172,7 +172,7 @@
     
     <category term="Java" />
     
-    <category term="Introduction" />
+    <category term="Introduction to Java" />
     
   
 
@@ -237,7 +237,7 @@
     
     <category term="Java" />
     
-    <category term="Introduction" />
+    <category term="Introduction to Java" />
     
   
 

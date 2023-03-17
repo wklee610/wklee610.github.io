@@ -2,7 +2,7 @@
 title: Introduction to Java (3) - 자바의 여러가지 연산자
 author: Hajun
 date: 2023-01-21 21:00:00 +0900
-categories: [Java, Introduction]
+categories: [Java, Introduction to Java]
 tags: [java, operator, operand, assignment]
 ---
 

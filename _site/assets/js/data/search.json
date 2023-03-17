@@ -3,7 +3,7 @@
   {
     "title": "Introduction to Java (5) - 클래스와 객채 1",
     "url": "/posts/Introduction-to-Java(5)/",
-    "categories": "Java, Introduction",
+    "categories": "Java, Introduction to Java",
     "tags": "java",
     "date": "2023-02-04 01:00:00 +0900",
     
@@ -20,7 +20,7 @@
   {
     "title": "Introduction to Database (1) - Introduction",
     "url": "/posts/Introduction-to-Database(1)/",
-    "categories": "Introduction, Database",
+    "categories": "Database, Introduction to Database",
     "tags": "database, instance, schema, relational, sql",
     "date": "2023-02-01 01:00:00 +0900",
     
@@ -37,7 +37,7 @@
   {
     "title": "Introduction to Java (4) - 제어 흐름 이해하기",
     "url": "/posts/Introduction-to-Java(4)/",
-    "categories": "Java, Introduction",
+    "categories": "Java, Introduction to Java",
     "tags": "java, if, else, for, while",
     "date": "2023-01-25 00:00:00 +0900",
     
@@ -54,7 +54,7 @@
   {
     "title": "Introduction to Java (3) - 자바의 여러가지 연산자",
     "url": "/posts/Introduction-to-Java(3)/",
-    "categories": "Java, Introduction",
+    "categories": "Java, Introduction to Java",
     "tags": "java, operator, operand, assignment",
     "date": "2023-01-21 21:00:00 +0900",
     
@@ -71,7 +71,7 @@
   {
     "title": "Introduction to Java (2) - 변수와 자료형",
     "url": "/posts/Introduction-to-Java(2)/",
-    "categories": "Java, Introduction",
+    "categories": "Java, Introduction to Java",
     "tags": "java, variable, datatype, literal, conversion",
     "date": "2023-01-20 03:33:00 +0900",
     
@@ -88,7 +88,7 @@
   {
     "title": "Introduction to Java (1) - 자바 프로그래밍 시작하기",
     "url": "/posts/Introduction-to-Java(1)/",
-    "categories": "Java, Introduction",
+    "categories": "Java, Introduction to Java",
     "tags": "java, jvm, jdk, class, gc",
     "date": "2023-01-18 03:09:00 +0900",
     

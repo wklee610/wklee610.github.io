@@ -2,7 +2,7 @@
 title: Introduction to Java (2) - 변수와 자료형
 author: Hajun
 date: 2023-01-20 03:33:00 +0900
-categories: [Java, Introduction]
+categories: [Java, Introduction to Java]
 tags: [java, variable, datatype, literal, conversion]
 ---
 
