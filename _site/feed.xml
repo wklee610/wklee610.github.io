@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>Hajun's Dev Note</title>
   <subtitle>Hajun's development &amp; tech knowledge data warehouse</subtitle>
-  <updated>2023-03-17T23:54:28+09:00</updated>
+  <updated>2023-03-18T22:28:54+09:00</updated>
   <author>
     <name>Hajun Lee</name>
     <uri>http://localhost:4000/</uri>
@@ -20,11 +20,68 @@
 
   
   <entry>
+    <title>도커 이해하기(2) - 도커 설치</title>
+    <link href="http://localhost:4000/posts/%EB%8F%84%EC%BB%A4-%EC%9D%B4%ED%95%B4%ED%95%98%EA%B8%B0(2)/" rel="alternate" type="text/html" title="도커 이해하기(2) - 도커 설치" />
+    <published>2023-03-18T22:00:00+09:00</published>
+  
+    <updated>2023-03-18T22:00:00+09:00</updated>
+  
+    <id>http://localhost:4000/posts/%EB%8F%84%EC%BB%A4-%EC%9D%B4%ED%95%B4%ED%95%98%EA%B8%B0(2)/</id>
+    <content src="http://localhost:4000/posts/%EB%8F%84%EC%BB%A4-%EC%9D%B4%ED%95%B4%ED%95%98%EA%B8%B0(2)/" />
+    <author>
+      <name>Hajun</name>
+    </author>
+
+  
+    
+    <category term="Docker" />
+    
+    <category term="Introduction to Docker" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      
+
+1. 도커 설치 in Mac OS
+
+
+  https://docs.docker.com/desktop/install/mac-install/ 링크 접속.
+  Intel chip이면 왼쪽, M1 or M2를 사용하면 오른쪽 선택.
+  설치.
+  docker 입력 후 여러 명렁어 나오면 설치 완료.
+
+
+2. 도커 설치 in Linux(Ubuntu)
+
+
+  Ubuntu에서 Terminal 열기
+  sudo apt-get update
+  sudo apt install docker.io
+  sudo snap install docker
+  docker –version or docker -v
+  sudo docker run hello-world
+  sudo docker images
+  sudo docker ps -a...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
     <title>도커 이해하기(1) - 도커는 무엇인가?</title>
     <link href="http://localhost:4000/posts/%EB%8F%84%EC%BB%A4-%EC%9D%B4%ED%95%B4%ED%95%98%EA%B8%B0(1)/" rel="alternate" type="text/html" title="도커 이해하기(1) - 도커는 무엇인가?" />
     <published>2023-03-17T23:45:00+09:00</published>
   
-    <updated>2023-03-17T23:45:00+09:00</updated>
+    <updated>2023-03-17T23:54:40+09:00</updated>
   
     <id>http://localhost:4000/posts/%EB%8F%84%EC%BB%A4-%EC%9D%B4%ED%95%B4%ED%95%98%EA%B8%B0(1)/</id>
     <content src="http://localhost:4000/posts/%EB%8F%84%EC%BB%A4-%EC%9D%B4%ED%95%B4%ED%95%98%EA%B8%B0(1)/" />
@@ -113,13 +170,13 @@
   
   <entry>
     <title>Introduction to Database (1) - Introduction</title>
-    <link href="http://localhost:4000/posts/Introduction-to-Database(1)/" rel="alternate" type="text/html" title="Introduction to Database (1) - Introduction" />
+    <link href="http://localhost:4000/posts/Introduction-to-Database(1)-copy/" rel="alternate" type="text/html" title="Introduction to Database (1) - Introduction" />
     <published>2023-02-01T01:00:00+09:00</published>
   
-    <updated>2023-03-17T22:46:19+09:00</updated>
+    <updated>2023-02-01T01:00:00+09:00</updated>
   
-    <id>http://localhost:4000/posts/Introduction-to-Database(1)/</id>
-    <content src="http://localhost:4000/posts/Introduction-to-Database(1)/" />
+    <id>http://localhost:4000/posts/Introduction-to-Database(1)-copy/</id>
+    <content src="http://localhost:4000/posts/Introduction-to-Database(1)-copy/" />
     <author>
       <name>Hajun</name>
     </author>
@@ -203,71 +260,6 @@
   if-else if문과 if-if문의 차이
     
       if-else i...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>Introduction to Java (3) - 자바의 여러가지 연산자</title>
-    <link href="http://localhost:4000/posts/Introduction-to-Java(3)/" rel="alternate" type="text/html" title="Introduction to Java (3) - 자바의 여러가지 연산자" />
-    <published>2023-01-21T21:00:00+09:00</published>
-  
-    <updated>2023-03-17T22:46:19+09:00</updated>
-  
-    <id>http://localhost:4000/posts/Introduction-to-Java(3)/</id>
-    <content src="http://localhost:4000/posts/Introduction-to-Java(3)/" />
-    <author>
-      <name>Hajun</name>
-    </author>
-
-  
-    
-    <category term="Java" />
-    
-    <category term="Introduction to Java" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      1. 항과 연산자
-
-연산에 사용하는 기호를 연산자(operator)라고 합니다. 그리고 연산에 사용하는 값을 항(operand)이라고 합니다. 연산자는 항의 개수에 따라 단항 연산자, 이항 연산자, 삼항 연산자로 나눌 수 있습니다.
-
-
-  단항 연산자
-    
-      항이 한 개인 연산자
-      ex) ++num
-    
-  
-  이항 연산자
-    
-      항이 두 개인 연산자
-      ex) num1 + num2;
-    
-  
-  삼항 연산자
-    
-      항이 세 개인 연산자
-      ex) (5 &amp;gt; 3 ? 1 : 0;)
-    
-  
-
-
-프로그램에서 사용하는 연산자는 우선순위가 있습니다. 단항 연산자가 가장 높고 이항, 삼항 연산자 순서입니다.
-
-2. 대입 연산자
-
-대...
     </summary>
   
 
