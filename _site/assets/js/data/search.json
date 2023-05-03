@@ -1,8 +1,8 @@
 [
   
   {
-    "title": "도커 이해하기(2) - 도커 설치",
-    "url": "/posts/%EB%8F%84%EC%BB%A4-%EC%9D%B4%ED%95%B4%ED%95%98%EA%B8%B0(2)/",
+    "title": "Docker 설치",
+    "url": "/posts/How-to-install-Docker/",
     "categories": "Docker, Introduction to Docker",
     "tags": "docker, installation, macos, ubuntu, linux",
     "date": "2023-05-03 21:30:00 +0900",
@@ -18,8 +18,8 @@
   },
   
   {
-    "title": "도커 이해하기(1) - 도커는 무엇인가?",
-    "url": "/posts/%EB%8F%84%EC%BB%A4-%EC%9D%B4%ED%95%B4%ED%95%98%EA%B8%B0(1)/",
+    "title": "도커는 무엇인가?",
+    "url": "/posts/What-is-Docker/",
     "categories": "Docker, Introduction to Docker",
     "tags": "docker, image, container",
     "date": "2023-03-17 23:45:00 +0900",
