@@ -1,5 +1,5 @@
 ---
-title: 도커 이해하기(2) - 도커 설치
+title: Docker 설치
 author: Hajun
 date: 2023-05-03 21:30:00 +0900
 categories: [Docker, Introduction to Docker]
