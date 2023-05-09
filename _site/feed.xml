@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>Hajun's Dev Note</title>
   <subtitle>Hajun's development &amp; tech knowledge data warehouse</subtitle>
-  <updated>2023-05-03T22:07:28+09:00</updated>
+  <updated>2023-05-09T23:36:12+09:00</updated>
   <author>
     <name>Hajun Lee</name>
     <uri>http://localhost:4000/</uri>
@@ -20,11 +20,60 @@
 
   
   <entry>
+    <title>Grub Rescue 해결법</title>
+    <link href="http://localhost:4000/posts/grub-rescue-solution/" rel="alternate" type="text/html" title="Grub Rescue 해결법" />
+    <published>2023-05-09T23:30:00+09:00</published>
+  
+    <updated>2023-05-09T23:30:00+09:00</updated>
+  
+    <id>http://localhost:4000/posts/grub-rescue-solution/</id>
+    <content src="http://localhost:4000/posts/grub-rescue-solution/" />
+    <author>
+      <name>Hajun</name>
+    </author>
+
+  
+    
+    <category term="linux" />
+    
+    <category term="solution" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      Desktop에 리눅스와 윈도우를 같이 쓰고 있었는데, 어느날 부팅하자마자 이런 메세지가 떴다.
+
+error: no such partition.
+Entering rescue mode... 
+grub rescue&amp;gt;
+
+왜 이런 증상이 생겼지에 대한 이유도 사실 모르겠지만, 일단 당장 해야하는게 있어 해결방법부터 찾아보았다.
+
+
+  ls 를 치면 (hd0) (hd0,msdos1)  (hd0,msdos2) ….  이렇게 나온다.
+  이제 어떤 파티션이 리눅스가 설치되어 있는지 찾아봐야한다.
+  ls (hd0,msdos1), ls (hd0,msdos2) … 하면서 각각 찾아보자.
+    error: unknown filesystem         #이게 나오면 여긴 아니다.
+(hd0,msdos5):file...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
     <title>Docker 설치</title>
     <link href="http://localhost:4000/posts/How-to-install-Docker/" rel="alternate" type="text/html" title="Docker 설치" />
     <published>2023-05-03T22:01:00+09:00</published>
   
-    <updated>2023-05-03T22:01:00+09:00</updated>
+    <updated>2023-05-03T22:07:46+09:00</updated>
   
     <id>http://localhost:4000/posts/How-to-install-Docker/</id>
     <content src="http://localhost:4000/posts/How-to-install-Docker/" />
@@ -81,7 +130,7 @@
     <link href="http://localhost:4000/posts/What-is-Docker/" rel="alternate" type="text/html" title="도커는 무엇인가?" />
     <published>2023-05-03T22:00:00+09:00</published>
   
-    <updated>2023-05-03T22:00:00+09:00</updated>
+    <updated>2023-05-03T22:07:46+09:00</updated>
   
     <id>http://localhost:4000/posts/What-is-Docker/</id>
     <content src="http://localhost:4000/posts/What-is-Docker/" />
@@ -211,55 +260,6 @@
       Sales: customers, products, purchases
       Accounting: payments, receipts, assets
       Human Resources: Information about employees, salaries, payro...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>Introduction to Java (4) - 제어 흐름 이해하기</title>
-    <link href="http://localhost:4000/posts/Introduction-to-Java(4)/" rel="alternate" type="text/html" title="Introduction to Java (4) - 제어 흐름 이해하기" />
-    <published>2023-01-25T00:00:00+09:00</published>
-  
-    <updated>2023-03-17T22:46:19+09:00</updated>
-  
-    <id>http://localhost:4000/posts/Introduction-to-Java(4)/</id>
-    <content src="http://localhost:4000/posts/Introduction-to-Java(4)/" />
-    <author>
-      <name>Hajun</name>
-    </author>
-
-  
-    
-    <category term="Java" />
-    
-    <category term="Introduction to Java" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      제어 흐름은 자세히 다루지 않고 키포인트만 짚고 넘어갈 것입니다. 제어 흐름은 기존에 다른 언어를 사용하신 분들에게는 익숙한 부분이고, 그만큼 앞으로 프로그래밍 하시는 동안 굉장한 높은 중요도를 가지고 있습니다. 따라서, 처음 배우시는 분들에게는 꼭 요약본이 아닌 책이나 강의를 먼저 읽어보는 것을 적극 추천드립니다.
-
-1. 조건문
-
-조건문이란 주어진 조건에 따라 다른 문장을 선택할 수 있도록 프로그래밍하는 것을 말합니다.
-
-  if문, if-else문, if-else if-else문, if-if문
-  조건문과 조건 연산자 –&amp;gt; max = (a &amp;gt; b) ? a : b;
-  
-    switch-case 문
-  
-  if-else if문과 if-if문의 차이
-    
-      if-else i...
     </summary>
   
 
